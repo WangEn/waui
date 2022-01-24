@@ -27,14 +27,14 @@ export default {}
 <style lang="less">
 .qaui-wrap {
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
   .row {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   text {
-    font-size: 28px;
+    font-size: 14px;
     color: #000000;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 </style>

@@ -95,10 +95,6 @@ export default {
       border-radius: 20px * @ratio;
       border: 1px * @ratio solid #d0d0d0;
       margin-right: 11px * @ratio;
-			&-check{
-				width: 20px * @ratio;
-				height: 20px * @ratio;
-			}
     }
     &-list {
       height: 24px * @ratio;

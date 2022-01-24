@@ -6,7 +6,7 @@
     >
       <image
         if="my_checked"
-        src="/common/images/radio-default.svg"
+        src="../../common/images/radio-default.svg"
         class="icon-check"
       ></image>
     </div>
@@ -78,8 +78,7 @@ export default {
     border: 1px * @ratio solid #d0d0d0;
     margin-right: 11px * @ratio;
     &-check {
-			width: 16px * @ratio;
-      border-radius: 2px * @ratio;
+      border-radius: 3px * @ratio;
       background-color: @primary-color;
     }
   }
@@ -95,6 +94,7 @@ export default {
   }
   .active {
     border: 1px * @ratio solid @primary-color;
+    border-color: @primary-color;
   }
   .disabled {
     opacity: 0.3;

@@ -66,6 +66,11 @@ export default {
       currentIndex: this.index,
     }
   },
+  onInit() {
+    this.$watch('index', (n, o) => {
+      this.currentIndex = n
+    })
+  },
   computed: {
     tabbarStyle() {
       return {
@@ -91,8 +96,6 @@ export default {
 }
 
 .tab-content {
-  position: fixed;
-  top: 0;
   bottom: 62px * @ratio;
   width: 100%;
 }

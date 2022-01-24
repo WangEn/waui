@@ -3,7 +3,7 @@
   "name": "QaUI组件库",
   "versionName": "1.0.0",
   "versionCode": "1",
-  "minPlatformVersion": "1020",
+  "minPlatformVersion": "1060",
   "icon": "/common/logo.png",
   "features": [
     { "name": "system.prompt" },
@@ -14,7 +14,7 @@
   ],
   "config": {
     "logLevel": "debug",
-    "designWidth": 750
+    "designWidth": 360
   },
   "router": {
     "entry": "pages/home",
@@ -88,12 +88,6 @@
       "pages/tabbar": {
         "component": "index"
       },
-      "pages/tabbar/page1": {
-        "component": "index"
-      },
-      "pages/tabbar/page2": {
-        "component": "index"
-      },
       "pages/steps": {
         "component": "index"
       },
@@ -116,7 +110,7 @@
         "component": "index"
       },
       "pages/tabs": {
-        "component": "index" 
+        "component": "index"
       },
       "pages/vtabs": {
         "component": "index"
@@ -217,15 +211,7 @@
         "menu": false
       },
       "pages/tabbar": {
-        "titleBarText": "底部导航 tabbar 一",
-        "menu": false
-      },
-      "pages/tabbar/page1": {
-        "titleBarText": "底部导航 tabbar 二",
-        "menu": false
-      },
-      "pages/tabbar/page2": {
-        "titleBarText": "底部导航 tabbar 三",
+        "titleBarText": "底部导航 tabbar",
         "menu": false
       },
       "pages/list": {
@@ -237,7 +223,7 @@
         "menu": false
       },
       "pages/gallery": {
-        "titleBarText": "画廊 steps",
+        "titleBarText": "画廊 gallery",
         "menu": false
       },
       "pages/slider": {

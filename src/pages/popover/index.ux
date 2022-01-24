@@ -176,8 +176,8 @@ export default {
         'bottom',
         'bottomRight',
       ],
-      popoverWidth: 190,
-      triggerSize: [168, 66],
+      popoverWidth: 95,
+      triggerSize: [84, 33],
       offset: [0, 0],
       arrowSpace: 10,
     }
@@ -196,7 +196,7 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 130px 0;
+  padding: 160px 0;
 
   .header {
     width: 100%;
@@ -220,27 +220,14 @@ export default {
     justify-content: space-around;
   }
 
-  &-select {
-    width: 190px;
-    height: 66px;
-    margin: 100px 0 400px;
-    font-size: 28px;
-    background-color: #ffffff;
-
-    &-item {
-      margin: 20px 0;
-      font-size: 28px;
-    }
-  }
-
   .rootText {
-    width: 168px;
-    height: 66px;
-    border-radius: 12px;
-    font-size: 26px;
+    width: 84px;
+    height: 33px;
+    border-radius: 6px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    line-height: 66px;
+    line-height: 33px;
     background-color: #ffffff;
   }
 }

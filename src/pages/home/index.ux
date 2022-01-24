@@ -70,17 +70,17 @@
 
   .logo {
     justify-content: center;
-    padding: 50px 0;
+    padding: 25px 0;
 
     image {
-      height: 100px;
+      height: 50px;
     }
   }
 
   .type {
     padding: 10px;
     text {
-      font-size: 36px;
+      font-size: 18px;
       font-weight: bold;
     }
   }
@@ -88,21 +88,21 @@
   .component {
     background-color: #ffffff;
     border-style: solid;
-    border-top-width: 2px;
+    border-top-width: 1px;
     border-top-color: #dddee1;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     flex-direction: column;
 
     .item {
-      height: 100px;
+      height: 50px;
       justify-content: space-between;
-      margin-left: 16px;
-      border-bottom-width: 2px;
+      margin-left: 10px;
+      border-bottom-width: 1px;
       border-bottom-color: #dddee1;
       border-style: solid;
 
       a {
-        font-size: 32px;
+        font-size: 16px;
         width: 100%;
       }
 
